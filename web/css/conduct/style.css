@@ -1,0 +1,9 @@
+#center span{
+    line-height: 30px;
+    width: 100%;
+    font-weight: bold;
+}
+#center img,#conduct{
+    width: 80%;
+    margin: 0px auto;
+}

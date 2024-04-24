@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <description>this is my simpletag collection.</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>MySimpleTag</short-name>
+    <uri>http://www.sangmeng.simpleTag.com</uri>
+    <tag>
+        <description>login check</description>
+        <name>login</name>
+        <tag-class>com.sangmeng.tag.LoginTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <description>out all administrative</description>
+        <name>outAdName</name>
+        <tag-class>com.sangmeng.tag.OutAdministrativeTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>num</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+    <tag>
+        <description>login check</description>
+        <name>outdoctor</name>
+        <tag-class>com.sangmeng.tag.OutDoctorTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+    <description>judge this tag to show</description>
+        <name>per</name>
+        <tag-class>com.sangmeng.tag.PermissionTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>role</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <description>judge this tag to show</description>
+        <name>atnd</name>
+        <tag-class>com.sangmeng.tag.CheckIdInformation</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>num</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <description>judge this tag to show</description>
+        <name>outOrder</name>
+        <tag-class>com.sangmeng.tag.OutOrderTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>per</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <description>judge this tag to show</description>
+        <name>outInvest</name>
+        <tag-class>com.sangmeng.tag.OutInvestTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>per</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <description>judge this tag to show</description>
+        <name>outNotices</name>
+        <tag-class> com.sangmeng.tag.outNoticeTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <description>judge this tag to show</description>
+        <name>outDoctors</name>
+        <tag-class> com.sangmeng.tag.OutBackDoctorTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+</taglib>
+

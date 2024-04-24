@@ -1,0 +1,17 @@
+.welcome{
+    width: 100%;
+    text-align: center;
+    font: 40px "fangsong" ;
+    margin-bottom: 20px;
+}
+.registerInformation {
+    margin-top: 10%;
+    width: 35%;
+}
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+input{
+    margin-bottom: 20px;
+}

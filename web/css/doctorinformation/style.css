@@ -1,0 +1,18 @@
+#rear h2{
+    font-size: 20px;
+    color: #04ade8;
+}
+.thumbnail img{
+    height:122%;
+    width: 62%;
+}
+.thumbnail p{
+    height:23% ;
+    width: 62%;
+}
+.thumbnail p div{
+    margin: 0px auto;
+}
+.outdoctor h2{
+    text-align: center;
+}

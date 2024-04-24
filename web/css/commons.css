@@ -1,0 +1,27 @@
+#first-ul
+{
+    list-style-type: none;
+}
+#first-ul > li{
+    float: right;
+}
+#first-ul > li > a{
+    margin: 5px 10px;
+}
+#rear{
+    text-align: center;
+    background: url(../img/back_rear.png) repeat-x;
+    background: #f6f6f6;
+}
+#center,.min-height{
+    min-height: 600px;
+}
+.line{
+    margin-top: -20px;
+}
+.changeMagin{
+    margin: 0px -15px;
+}
+*[id$=Tip],*[class$=Tip]{
+    color: red;
+}

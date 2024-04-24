@@ -1,0 +1,14 @@
+<c3p0-config>
+    <default-config>
+        <property name="user">root</property>
+        <property name="password">123456wxzr</property>
+        <property name="drivername">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/paper?serverTimezone=GMT%2B8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true</property>
+    </default-config>
+    <name-config name="sangmeng">
+        <property name="user">root</property>
+        <property name="password">123456wxzr</property>
+        <property name="drivername">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/paper?serverTimezone=GMT%2B8&amp;useSSL=false&amp; allowPublicKeyRetrieval=true&amp;generateSimpleParameterMetadata=true</property>
+    </name-config>
+</c3p0-config>
